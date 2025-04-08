@@ -227,7 +227,7 @@ The Solana documentation is organized into several key sections covering core co
 
 ## Docs - Programs
 
-- [Deploying Programs](https://solana.com/docs/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): Deploying onchain programs can be done using the Solana CLI using the Upgradable BPF loader to upload the compiled byte-code to the Solana blockchain.
+- [Deploying Programs](https://solana.com/docs/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): Uploading custom programs to the Solana blockchain using the Solana CLI.
 - [FAQ](https://solana.com/docs/programs/faq?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Limitations](https://solana.com/docs/programs/limitations?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Program Examples](https://solana.com/docs/programs/examples?utm_source=llms&utm_medium=ai&utm_campaign=txt): A list of Solana program examples in different languages and frameworks,  which can help you learn and use as reference for your own projects.
