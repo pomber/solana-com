@@ -407,7 +407,7 @@ The Solana documentation is organized into several key sections covering core co
 - [Token-Konto schließen](https://solana.com/docs/de/tokens/basics/close-account?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie, wie Sie Token-Konten schließen können.
 - [Tokens auf Solana](https://solana.com/docs/de/tokens/?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie mehr über Solanas Token Programs.
 - [Transaktionen und Anweisungen](https://solana.com/docs/de/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie mehr über Solana-Transaktionen und Anweisungen - die grundlegenden Bausteine für die Interaktion mit der Solana-Blockchain. Verstehen Sie die Transaktionsstruktur und die Zusammensetzung von Anweisungen mit praktischen Beispielen.
-- [Transaktionsgebühren](https://solana.com/docs/de/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie mehr über Solanas Transaktionsgebühren, einschließlich der Basis- und Priority Fees, wie jede angewendet wird und bewährte Methoden zur Verwaltung von Compute Units in Ihren Transaktionen.
+- [Transaktionsgebühren](https://solana.com/docs/de/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie mehr über Solanas Transaktionsgebühren, einschließlich der Basis- und Prioritätsgebühren, wie diese angewendet werden und bewährte Methoden zur Verwaltung von Compute-Einheiten in Ihren Transaktionen.
 - [Transfer-Fee](https://solana.com/docs/de/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie, wie Sie die TransferFeeExtension implementieren.
 - [Typescript SDK](https://solana.com/docs/de/clients/javascript?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie, wie Sie mit der JavaScript/TypeScript-Clientbibliothek (@solana/web3.js) mit Solana interagieren können.
 - [Unveränderlicher Eigentümer](https://solana.com/docs/de/tokens/extensions/immutable-owner?utm_source=llms&utm_medium=ai&utm_campaign=txt): Erfahren Sie, wie Sie die ImmutableOwner-Erweiterung aktivieren.
@@ -664,11 +664,11 @@ The Solana documentation is organized into several key sections covering core co
 - [Συναλλαγές και Οδηγίες](https://solana.com/docs/el/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε για τις συναλλαγές και τις οδηγίες της Solana - τα θεμελιώδη δομικά στοιχεία για την αλληλεπίδραση με το blockchain της Solana. Κατανοήστε τη δομή των συναλλαγών και τη σύνθεση των οδηγιών με πρακτικά παραδείγματα.
 - [Συχνές ερωτήσεις](https://solana.com/docs/el/programs/faq?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Σύνθεση πολλαπλών προγραμμάτων](https://solana.com/docs/el/intro/quick-start/cross-program-invocation?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε πώς να υλοποιήσετε Cross Program Invocations (CPIs) σε προγράμματα Solana χρησιμοποιώντας το πλαίσιο Anchor. Αυτό το εκπαιδευτικό πρόγραμμα δείχνει πώς να μεταφέρετε SOL μεταξύ λογαριασμών, να αλληλεπιδράσετε με το System Program και να χειριστείτε Program Derived Addresses (PDAs) σε CPIs. Ιδανικό για προγραμματιστές που θέλουν να δημιουργήσουν συνθέσιμα προγράμματα Solana.
+- [Τέλη Συναλλαγών](https://solana.com/docs/el/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε για τα τέλη συναλλαγών του Solana, συμπεριλαμβανομένων των βασικών και των τελών προτεραιότητας, πώς εφαρμόζεται το καθένα, και τις βέλτιστες πρακτικές για τη διαχείριση των υπολογιστικών μονάδων στις συναλλαγές σας.
 - [Τεκμηρίωση Solana](https://solana.com/docs/el/?utm_source=llms&utm_medium=ai&utm_campaign=txt): Το Solana είναι το blockchain υψηλής απόδοσης σχεδιασμένο για μαζική υιοθέτηση. Μάθετε γιατί το Solana είναι η κορυφαία επιλογή για προγραμματιστές που θέλουν να δημιουργήσουν κλιμακώσιμες εφαρμογές blockchain.
 - [Τελικά σημεία RPC](https://solana.com/docs/el/references/clusters?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε για τα δίκτυα (clusters) της Solana (Devnet, Testnet και Mainnet Beta), τα δημόσια τελικά σημεία RPC, τα όρια ρυθμού και τις περιπτώσεις χρήσης. Μάθετε πώς να συνδεθείτε σε διαφορετικά δίκτυα Solana για ανάπτυξη, δοκιμή και παραγωγή.
 - [Τόκενς που φέρουν τόκο](https://solana.com/docs/el/tokens/extensions/interest-bearing-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε πώς να ενεργοποιήσετε το InterestBearingMintExtension.
 - [Χρεώσεις Μεταφοράς](https://solana.com/docs/el/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε πώς να υλοποιήσετε το TransferFeeExtension.
-- [Χρεώσεις συναλλαγών](https://solana.com/docs/el/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Μάθετε για τις χρεώσεις συναλλαγών του Solana, συμπεριλαμβανομένων των βασικών και προτεραιότητας χρεώσεων, πώς εφαρμόζεται η καθεμία, και τις βέλτιστες πρακτικές για τη διαχείριση μονάδων υπολογισμού στις συναλλαγές σας.
 
 ## Docs - En
 
@@ -745,7 +745,7 @@ The Solana documentation is organized into several key sections covering core co
 - [Transfer Tokens](https://solana.com/docs/en/tokens/extensions/confidential-transfer/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to transfer tokens privately from one token account to another.
 - [Transfer Tokens](https://solana.com/docs/en/tokens/basics/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to transfer tokens between token accounts.
 - [Typescript SDK](https://solana.com/docs/en/clients/javascript?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to interact with Solana using the JavaScript/TypeScript client library (@solana/web3.js).
-- [Verifying Programs](https://solana.com/docs/en/programs/verified-builds?utm_source=llms&utm_medium=ai&utm_campaign=txt): Verified builds is a way to link your program to its source code and let  everyone independently verify that the program was indeed built from that  provided source code.
+- [Verifying Programs](https://solana.com/docs/en/programs/verified-builds?utm_source=llms&utm_medium=ai&utm_campaign=txt): Verified builds is a way to link your program to its source code and let everyone independently verify that the program was indeed built from that provided source code.
 - [Websocket Methods](https://solana.com/docs/en/rpc/websocket/?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Withdraw Tokens](https://solana.com/docs/en/tokens/extensions/confidential-transfer/withdraw-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to withdraw tokens from confidential state.
 - [Writing to Network](https://solana.com/docs/en/intro/quick-start/writing-to-network?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to interact with the Solana network by sending transactions and instructions. Follow step-by-step examples to transfer SOL tokens and create new tokens using the System Program and Token Extensions Program.
@@ -906,7 +906,7 @@ The Solana documentation is organized into several key sections covering core co
 - [SDKs de juegos de Solana](https://solana.com/docs/es/clients/game-sdks?utm_source=llms&utm_medium=ai&utm_campaign=txt): Una lista de SDKs de juegos de Solana para ayudarte a crear tu primer juego en Solana
 - [Sincronizar SOL nativo](https://solana.com/docs/es/tokens/basics/sync-native?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprende cómo convertir SOL nativo a SOL envuelto.
 - [Staking](https://solana.com/docs/es/references/staking/?utm_source=llms&utm_medium=ai&utm_campaign=txt)
-- [Tarifas de transacción](https://solana.com/docs/es/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprende sobre las tarifas de transacción de Solana, incluyendo las tarifas base y prioritarias, cómo se aplica cada una, y las mejores prácticas para gestionar unidades de cómputo en tus transacciones.
+- [Tarifas de transacción](https://solana.com/docs/es/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprende sobre las tarifas de transacción de Solana, incluyendo las tarifas base y de priorización, cómo se aplica cada una, y las mejores prácticas para gestionar unidades de cómputo en tus transacciones.
 - [Tarifas de transferencia](https://solana.com/docs/es/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprende cómo implementar la TransferFeeExtension.
 - [Terminología](https://solana.com/docs/es/references/terminology?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprende la terminología esencial utilizada en la blockchain de Solana y los modelos de desarrollo.
 - [Tokens con interés](https://solana.com/docs/es/tokens/extensions/interest-bearing-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprende cómo habilitar la InterestBearingMintExtension.
@@ -1076,7 +1076,7 @@ The Solana documentation is organized into several key sections covering core co
 - [Tokenien siirtäminen](https://solana.com/docs/fi/tokens/basics/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi siirtämään tokeneita token-tililtä toiselle.
 - [Tokeniryhmät ja jäsenet](https://solana.com/docs/fi/tokens/extensions/group-member?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi miten GroupPointerExtension ja GroupMemberPointerExtension otetaan käyttöön.
 - [Tokenit Solanassa](https://solana.com/docs/fi/tokens/?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi Solanan Token-ohjelmista.
-- [Transaktiomaksut](https://solana.com/docs/fi/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi Solanan transaktiomaksuista, mukaan lukien perus- ja prioriteettimaksut, miten kutakin sovelletaan ja parhaat käytännöt laskentayksiköiden hallintaan transaktioissasi.
+- [Transaktiomaksut](https://solana.com/docs/fi/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi Solanan transaktiomaksuista, mukaan lukien perus- ja priorisointimaksut, miten kutakin sovelletaan ja parhaat käytännöt laskentayksiköiden hallintaan transaktioissasi.
 - [Transaktiot ja ohjeet](https://solana.com/docs/fi/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi Solanan transaktioista ja ohjeista - perustavanlaatuisista rakennuspalikoista Solana-lohkoketjun kanssa vuorovaikuttamiseen. Ymmärrä transaktioiden rakenne ja ohjeiden koostumus käytännön esimerkkien avulla.
 - [Typescript SDK](https://solana.com/docs/fi/clients/javascript?utm_source=llms&utm_medium=ai&utm_campaign=txt): Opi miten Solanan kanssa voi olla vuorovaikutuksessa JavaScript/TypeScript-asiakaskirjaston (@solana/web3.js) avulla.
 - [UKK](https://solana.com/docs/fi/programs/faq?utm_source=llms&utm_medium=ai&utm_campaign=txt)
@@ -1204,7 +1204,7 @@ The Solana documentation is organized into several key sections covering core co
 - [FAQ](https://solana.com/docs/fr/programs/faq?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Fermer un compte de token](https://solana.com/docs/fr/tokens/basics/close-account?utm_source=llms&utm_medium=ai&utm_campaign=txt): Apprenez comment fermer des comptes de token.
 - [Fermeture de mint](https://solana.com/docs/fr/tokens/extensions/close-mint?utm_source=llms&utm_medium=ai&utm_campaign=txt): Apprenez comment activer l'extension MintCloseAuthority.
-- [Frais de transaction](https://solana.com/docs/fr/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Découvrez les frais de transaction de Solana, y compris les frais de base et les frais prioritaires, comment chacun est appliqué, et les meilleures pratiques pour gérer les unités de calcul dans vos transactions.
+- [Frais de transaction](https://solana.com/docs/fr/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Découvrez les frais de transaction de Solana, y compris les frais de base et les frais de priorisation, comment chacun est appliqué, et les meilleures pratiques pour gérer les unités de calcul dans vos transactions.
 - [Frais de transfert](https://solana.com/docs/fr/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Apprenez à implémenter l'extension TransferFeeExtension.
 - [Frapper des jetons](https://solana.com/docs/fr/tokens/basics/mint-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Apprenez comment frapper de nouvelles unités d'un jeton.
 - [Geler un compte](https://solana.com/docs/fr/tokens/basics/freeze-account?utm_source=llms&utm_medium=ai&utm_campaign=txt): Apprenez comment geler des token accounts.
@@ -1346,8 +1346,8 @@ The Solana documentation is organized into several key sections covering core co
 - [Akun Stake](https://solana.com/docs/id/references/staking/stake-accounts?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Bakar Token](https://solana.com/docs/id/tokens/basics/burn-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Pelajari cara membakar token.
 - [Batasan](https://solana.com/docs/id/programs/limitations?utm_source=llms&utm_medium=ai&utm_campaign=txt)
-- [Biaya Transaksi](https://solana.com/docs/id/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Pelajari tentang biaya transaksi Solana, termasuk biaya dasar dan biaya prioritas, bagaimana masing-masing diterapkan, dan praktik terbaik untuk mengelola unit komputasi dalam transaksi Anda.
 - [Biaya Transfer](https://solana.com/docs/id/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Pelajari cara mengimplementasikan TransferFeeExtension.
+- [Biaya transaksi](https://solana.com/docs/id/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Pelajari tentang biaya transaksi Solana, termasuk biaya dasar dan biaya prioritas, bagaimana masing-masing diterapkan, dan praktik terbaik untuk mengelola unit komputasi dalam transaksi Anda.
 - [CPI Guard](https://solana.com/docs/id/tokens/extensions/cpi-guard?utm_source=llms&utm_medium=ai&utm_campaign=txt): Pelajari cara mengaktifkan CpiGuardExtension.
 - [Cadangkan CU Minimal untuk Builtins](https://solana.com/docs/id/references/feature-gates/reserve-minimal-cus-for-builtins?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Contoh Program](https://solana.com/docs/id/programs/examples?utm_source=llms&utm_medium=ai&utm_campaign=txt): Daftar contoh program Solana dalam berbagai bahasa dan framework, yang dapat membantu Anda belajar dan digunakan sebagai referensi untuk proyek Anda sendiri.
@@ -1807,6 +1807,7 @@ The Solana documentation is organized into several key sections covering core co
 - [ダイレクトマッピング](https://solana.com/docs/ja/references/feature-gates/direct-mapping?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [デフォルト状態](https://solana.com/docs/ja/tokens/extensions/default-state?utm_source=llms&utm_medium=ai&utm_campaign=txt): DefaultAccountStateExtensionを有効にする方法を学びます。
 - [トランザクションとインストラクション](https://solana.com/docs/ja/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solanaトランザクションとインストラクション - Solanaブロックチェーンとやり取りするための基本的な構成要素について学びましょう。実践的な例を通じてトランザクション構造とインストラクションの構成を理解しましょう。
+- [トランザクション手数料](https://solana.com/docs/ja/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solanaのトランザクション手数料について学びましょう。基本手数料と優先手数料、それぞれの適用方法、およびトランザクションでのコンピュートユニット管理のベストプラクティスを解説します。
 - [トークンのミント](https://solana.com/docs/ja/tokens/basics/mint-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): トークンの新しい単位をミントする方法を学びましょう。
 - [トークンの入金](https://solana.com/docs/ja/tokens/extensions/confidential-transfer/deposit-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 機密状態へトークンを入金する方法を学びましょう。
 - [トークンの引き出し](https://solana.com/docs/ja/tokens/extensions/confidential-transfer/withdraw-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 機密状態からトークンを引き出す方法を学びます。
@@ -1836,7 +1837,6 @@ The Solana documentation is organized into several key sections covering core co
 - [保留残高を適用する](https://solana.com/docs/ja/tokens/extensions/confidential-transfer/apply-pending-balance?utm_source=llms&utm_medium=ai&utm_campaign=txt): 資金を利用可能にするために保留残高を適用する方法を学びます。
 - [利子付きトークン](https://solana.com/docs/ja/tokens/extensions/interest-bearing-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): InterestBearingMintExtensionの有効化方法を学びます。
 - [制限事項](https://solana.com/docs/ja/programs/limitations?utm_source=llms&utm_medium=ai&utm_campaign=txt)
-- [取引手数料](https://solana.com/docs/ja/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solanaの取引手数料について学びましょう。基本手数料と優先手数料、それぞれの適用方法、およびトランザクションでのコンピュートユニット管理のベストプラクティスを解説します。
 - [委任の取り消し](https://solana.com/docs/ja/tokens/basics/revoke-delegate?utm_source=llms&utm_medium=ai&utm_campaign=txt): トークンアカウントの委任を取り消す方法を学びます。
 - [委任の承認](https://solana.com/docs/ja/tokens/basics/approve-delegate?utm_source=llms&utm_medium=ai&utm_campaign=txt): トークンアカウントの委任を承認する方法を学びましょう。
 - [新しい投票instructionのデフォルト](https://solana.com/docs/ja/references/feature-gates/tsynmcspg4xficj1v3tdb4c7crmr5tsbhlz4sf7rrna?utm_source=llms&utm_medium=ai&utm_campaign=txt)
@@ -2008,7 +2008,7 @@ The Solana documentation is organized into several key sections covering core co
 - [토큰 전송하기](https://solana.com/docs/ko/tokens/basics/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 토큰 계정 간에 토큰을 전송하는 방법을 알아보세요.
 - [토큰 출금하기](https://solana.com/docs/ko/tokens/extensions/confidential-transfer/withdraw-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 기밀 상태에서 토큰을 출금하는 방법을 알아보세요.
 - [트랜잭션 및 명령어](https://solana.com/docs/ko/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): 솔라나 트랜잭션과 명령어에 대해 알아보세요 - 솔라나 블록체인과 상호작용하기 위한 기본 구성 요소입니다. 실용적인 예제를 통해 트랜잭션 구조와 명령어 구성을 이해하세요.
-- [트랜잭션 수수료](https://solana.com/docs/ko/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana의 트랜잭션 수수료에 대해 알아보세요. 기본 수수료와 우선순위 수수료, 각각의 적용 방식, 그리고 트랜잭션에서 컴퓨트 유닛을 관리하는 모범 사례를 포함합니다.
+- [트랜잭션 수수료](https://solana.com/docs/ko/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana의 트랜잭션 수수료에 대해 알아보세요. 기본 수수료와 우선순위 수수료, 각각의 적용 방법, 그리고 트랜잭션에서 컴퓨트 유닛을 관리하는 모범 사례를 포함합니다.
 - [프로그램 검증하기](https://solana.com/docs/ko/programs/verified-builds?utm_source=llms&utm_medium=ai&utm_campaign=txt): 검증된 빌드는 프로그램을 소스 코드에 연결하고 모든 사람이 제공된 소스 코드에서 실제로 프로그램이 빌드되었는지 독립적으로 확인할 수 있게 해주는 방법입니다.
 - [프로그램 구조](https://solana.com/docs/ko/programs/rust/program-structure?utm_source=llms&utm_medium=ai&utm_campaign=txt): Rust에서 Solana 프로그램을 구조화하는 방법을 배우세요. 엔트리포인트, 상태 관리, 명령어 처리 및 테스트를 포함합니다.
 - [프로그램 배포하기](https://solana.com/docs/ko/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana CLI를 사용하여 Solana 프로그램을 구축, 배포 및 관리하는 완전한 가이드입니다.
@@ -2211,7 +2211,7 @@ The Solana documentation is organized into several key sections covering core co
 - [Odblokowanie konta](https://solana.com/docs/pl/tokens/basics/thaw-account?utm_source=llms&utm_medium=ai&utm_campaign=txt): Dowiedz się, jak odblokować zamrożone konto tokenów.
 - [Odczyt z sieci](https://solana.com/docs/pl/intro/quick-start/reading-from-network?utm_source=llms&utm_medium=ai&utm_campaign=txt): Dowiedz się, jak odczytywać dane z sieci blockchain Solana. Ten przewodnik obejmuje pobieranie kont portfeli, kont programów i kont tokenów mint za pomocą JavaScript/TypeScript, z praktycznymi przykładami wykorzystującymi bibliotekę Solana web3.js.
 - [Ograniczenia](https://solana.com/docs/pl/programs/limitations?utm_source=llms&utm_medium=ai&utm_campaign=txt)
-- [Opłaty transakcyjne](https://solana.com/docs/pl/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Dowiedz się więcej o opłatach transakcyjnych w Solana, w tym o opłatach podstawowych i priorytetowych, sposobie ich naliczania oraz najlepszych praktykach zarządzania jednostkami obliczeniowymi w transakcjach.
+- [Opłaty transakcyjne](https://solana.com/docs/pl/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Dowiedz się więcej o opłatach transakcyjnych w Solana, w tym o opłatach podstawowych i priorytetowych, sposobie ich stosowania oraz najlepszych praktykach zarządzania jednostkami obliczeniowymi w transakcjach.
 - [Opłaty za transfer](https://solana.com/docs/pl/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Dowiedz się, jak zaimplementować TransferFeeExtension.
 - [Podstawowe pojęcia](https://solana.com/docs/pl/core/?utm_source=llms&utm_medium=ai&utm_campaign=txt): Poznaj kluczowe pojęcia blockchaina Solana, w tym konta, transakcje, programy, program derived addresses, cross program invocations oraz sposób działania tokenów na Solanie.
 - [Podstawy Anchor CLI](https://solana.com/docs/pl/intro/installation/anchor-cli-basics?utm_source=llms&utm_medium=ai&utm_campaign=txt): Ta sekcja omawia kilka typowych poleceń Anchor CLI, aby pomóc Ci rozpocząć.
@@ -2425,7 +2425,7 @@ The Solana documentation is organized into several key sections covering core co
 - [SDKs de jogos Solana](https://solana.com/docs/pt/clients/game-sdks?utm_source=llms&utm_medium=ai&utm_campaign=txt): Uma lista de SDKs de jogos Solana para ajudar você a começar a criar seu primeiro jogo Solana
 - [Staking](https://solana.com/docs/pt/references/staking/?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Sync Native](https://solana.com/docs/pt/tokens/basics/sync-native?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprenda como converter SOL nativo para SOL empacotado.
-- [Taxas de transação](https://solana.com/docs/pt/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprenda sobre as taxas de transação da Solana, incluindo as taxas base e prioritárias, como cada uma é aplicada e as melhores práticas para gerenciar unidades de computação em suas transações.
+- [Taxas de transação](https://solana.com/docs/pt/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprenda sobre as taxas de transação da Solana, incluindo as taxas base e de prioridade, como cada uma é aplicada e as melhores práticas para gerenciar unidades de computação em suas transações.
 - [Taxas de transferência](https://solana.com/docs/pt/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprenda como implementar a TransferFeeExtension.
 - [Terminologia](https://solana.com/docs/pt/references/terminology?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprenda a terminologia essencial usada em toda a blockchain Solana e modelos de desenvolvimento.
 - [Tokens Não Transferíveis](https://solana.com/docs/pt/tokens/extensions/non-transferrable-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Aprenda como habilitar o InitializeNonTransferableMint.
@@ -2859,7 +2859,7 @@ The Solana documentation is organized into several key sections covering core co
 - [Ölçeklendirilmiş UI Miktar Entegrasyon Kılavuzu](https://solana.com/docs/tr/tokens/extensions/scaled-ui-amount/integration-guide?utm_source=llms&utm_medium=ai&utm_campaign=txt): Uygulamanızda Ölçeklendirilmiş UI Miktar uzantısını kullanan bir tokeni nasıl entegre edeceğinizi öğrenin.
 - [Ölçeklendirilmiş UI Miktar Veren Kılavuzu](https://solana.com/docs/tr/tokens/extensions/scaled-ui-amount/issuer-guide?utm_source=llms&utm_medium=ai&utm_campaign=txt): Bir tokenin UI miktarını ölçeklendirmek için Ölçeklendirilmiş UI Miktar uzantısını nasıl kullanacağınızı öğrenin.
 - [Ölçeklendirilmiş UI Miktarı](https://solana.com/docs/tr/tokens/extensions/scaled-ui-amount/?utm_source=llms&utm_medium=ai&utm_campaign=txt): Ölçeklendirilmiş UI Miktarı uzantısı hakkında bilgi edinin ve bir tokenin UI miktarını ölçeklendirmek için nasıl kullanacağınızı öğrenin.
-- [İşlem Ücretleri](https://solana.com/docs/tr/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana'nın işlem ücretleri hakkında bilgi edinin, temel ve öncelik ücretleri dahil olmak üzere, her birinin nasıl uygulandığını ve işlemlerinizde hesaplama birimlerini yönetmek için en iyi uygulamaları öğrenin.
+- [İşlem ücretleri](https://solana.com/docs/tr/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana'nın işlem ücretleri hakkında bilgi edinin; temel ve öncelik ücretleri, her birinin nasıl uygulandığı ve işlemlerinizdeki hesaplama birimlerini yönetmek için en iyi uygulamalar dahil.
 - [İşlemler ve talimatlar](https://solana.com/docs/tr/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana işlemleri ve talimatları hakkında bilgi edinin - Solana blok zinciriyle etkileşim kurmanın temel yapı taşları. Pratik örneklerle işlem yapısını ve talimat kompozisyonunu anlayın.
 
 ## Docs - Uk
@@ -3315,7 +3315,7 @@ The Solana documentation is organized into several key sections covering core co
 - [不可转让代币](https://solana.com/docs/zh/tokens/extensions/non-transferrable-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何启用 InitializeNonTransferableMint。
 - [为内置程序保留最小化的 CU](https://solana.com/docs/zh/references/feature-gates/reserve-minimal-cus-for-builtins?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [交易与指令](https://solana.com/docs/zh/core/transactions?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解 Solana 的交易与指令——与 Solana 区块链交互的基本构建块。通过实际示例，理解交易结构和指令组成。
-- [交易费用](https://solana.com/docs/zh/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解 Solana 的交易费用，包括基础费用和优先费用，各自的应用方式，以及管理交易中计算单元的最佳实践。
+- [交易费用](https://solana.com/docs/zh/core/fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解 Solana 的交易费用，包括基础费用和优先费用，各自的应用方式，以及在交易中管理计算单元的最佳实践。
 - [从网络读取数据](https://solana.com/docs/zh/intro/quick-start/reading-from-network?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何从 Solana 区块链网络读取数据。本指南涵盖了使用 JavaScript/TypeScript 获取钱包账户、program account 和 token mint account 的方法，并提供了使用 Solana web3.js 库的实际示例。
 - [作为 JSON 的数据结构](https://solana.com/docs/zh/rpc/json-structures?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [保密转账](https://solana.com/docs/zh/tokens/extensions/confidential-transfer/?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解保密转账扩展以及如何使用它为代币铸币和账户添加可选功能。
