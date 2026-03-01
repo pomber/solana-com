@@ -758,6 +758,7 @@ The Solana documentation is organized into several key sections covering core co
 - [Transfer Tokens](https://solana.com/docs/en/tokens/basics/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to transfer tokens between token accounts.
 - [Typescript SDK](https://solana.com/docs/en/clients/official/javascript?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to interact with Solana using the JavaScript/TypeScript client libraries.
 - [Verification Tools](https://solana.com/docs/en/payments/accept-payments/verification-tools?utm_source=llms&utm_medium=ai&utm_campaign=txt): Verify incoming stablecoin payments and reconcile them with your orders.
+- [Verify Address](https://solana.com/docs/en/payments/send-payments/verify-address?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to verify addresses before sending payments on Solana to prevent fund loss.
 - [Verifying Programs](https://solana.com/docs/en/programs/verified-builds?utm_source=llms&utm_medium=ai&utm_campaign=txt): Verified builds is a way to link your program to its source code and let everyone independently verify that the program was indeed built from that provided source code.
 - [Websocket Methods](https://solana.com/docs/en/rpc/websocket/?utm_source=llms&utm_medium=ai&utm_campaign=txt)
 - [Withdraw Tokens](https://solana.com/docs/en/tokens/extensions/confidential-transfer/withdraw-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): Learn how to withdraw tokens from confidential state.
@@ -2252,8 +2253,8 @@ The Solana documentation is organized into several key sections covering core co
 - [프로그램](https://solana.com/docs/ko/core/programs?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana 프로그램(스마트 컨트랙트)과 Rust 또는 Anchor 프레임워크를 사용한 개발 방법을 알아보세요. Solana 네트워크에서 프로그램 배포, 업그레이드 및 검증을 이해하세요.
 - [프로그램 검증하기](https://solana.com/docs/ko/programs/verified-builds?utm_source=llms&utm_medium=ai&utm_campaign=txt): 검증된 빌드는 프로그램을 소스 코드에 연결하고 모든 사람이 제공된 소스 코드에서 실제로 프로그램이 빌드되었는지 독립적으로 확인할 수 있게 해주는 방법입니다.
 - [프로그램 구조](https://solana.com/docs/ko/programs/rust/program-structure?utm_source=llms&utm_medium=ai&utm_campaign=txt): Rust로 작성된 Solana 프로그램의 구조를 배워보세요. 엔트리포인트, 상태 관리, 명령어 처리 및 테스트를 포함합니다.
-- [프로그램 배포하기](https://solana.com/docs/ko/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana CLI를 사용하여 Solana 프로그램을 구축, 배포 및 관리하는 완전한 가이드입니다.
 - [프로그램 배포하기](https://solana.com/docs/ko/intro/quick-start/deploying-programs?utm_source=llms&utm_medium=ai&utm_campaign=txt): Anchor 프레임워크와 Solana Playground를 사용하여 첫 번째 Solana 프로그램을 빌드, 배포 및 테스트하는 방법을 배워보세요. 이 초보자 친화적인 가이드는 간단한 프로그램 생성, devnet에 배포, 테스트 실행 및 프로그램 종료 과정을 안내합니다.
+- [프로그램 배포하기](https://solana.com/docs/ko/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): Solana CLI를 사용하여 Solana 프로그램을 구축, 배포 및 관리하는 완전한 가이드입니다.
 - [프로그램 예제](https://solana.com/docs/ko/programs/examples?utm_source=llms&utm_medium=ai&utm_campaign=txt): 다양한 언어와 프레임워크로 작성된 Solana 프로그램 예제 목록으로, 자신의 프로젝트를 위한 학습과 참조에 도움이 됩니다.
 - [프로그램 파생 주소](https://solana.com/docs/ko/core/pda?utm_source=llms&utm_medium=ai&utm_campaign=txt): 솔라나의 프로그램 파생 주소(PDA)에 대해 알아보세요 — 안전한 프로그램 서명을 가능하게 하는 결정론적 계정 주소입니다. PDA 파생, 표준 범프, PDA 계정 생성 방법을 이해하세요.
 - [프로덕션 준비](https://solana.com/docs/ko/payments/production-readiness?utm_source=llms&utm_medium=ai&utm_campaign=txt): 데브넷 테스트에서 메인넷 배포로 전환하기
@@ -3868,8 +3869,8 @@ The Solana documentation is organized into several key sections covering core co
 - [转移 Token](https://solana.com/docs/zh/tokens/extensions/confidential-transfer/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何将 token 从一个 token 账户私密地转移到另一个 token 账户。
 - [转移代币](https://solana.com/docs/zh/tokens/basics/transfer-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何在代币账户之间转移代币。
 - [转账费用](https://solana.com/docs/zh/tokens/extensions/transfer-fees?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何实现 TransferFeeExtension。
-- [部署程序](https://solana.com/docs/zh/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): 使用 Solana CLI 将自定义程序上传到 Solana 区块链。
 - [部署程序](https://solana.com/docs/zh/intro/quick-start/deploying-programs?utm_source=llms&utm_medium=ai&utm_campaign=txt): 学习如何使用 Anchor 框架和 Solana Playground 构建、部署并测试你的第一个 Solana 程序。本初学者友好指南将带你完成创建简单程序、部署到 devnet、运行测试以及关闭程序的全过程。
+- [部署程序](https://solana.com/docs/zh/programs/deploying?utm_source=llms&utm_medium=ai&utm_campaign=txt): 使用 Solana CLI 将自定义程序上传到 Solana 区块链。
 - [铸造 Token](https://solana.com/docs/zh/tokens/basics/mint-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何铸造新的 Token 单位。
 - [销毁代币](https://solana.com/docs/zh/tokens/basics/burn-tokens?utm_source=llms&utm_medium=ai&utm_campaign=txt): 了解如何销毁代币。
 - [限制](https://solana.com/docs/zh/programs/limitations?utm_source=llms&utm_medium=ai&utm_campaign=txt)
